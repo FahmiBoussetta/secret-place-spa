@@ -1,0 +1,33 @@
+{
+  "secretplacespaApp": {
+    "booking": {
+      "home": {
+        "title": "Bookings",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Booking",
+        "createOrEditLabel": "Créer ou éditer un Booking",
+        "notFound": "Aucun Booking trouvé"
+      },
+      "created": "Un nouveau Booking a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Booking avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Booking avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Booking {{ id }} ?"
+      },
+      "detail": {
+        "title": "Booking"
+      },
+      "id": "ID",
+      "email": "Email",
+      "totalPrice": "Total Price",
+      "comment": "Comment",
+      "validate": "Validate",
+      "paypalLink": "Paypal Link",
+      "jhiUserId": "Jhi User Id",
+      "establishmentId": "Establishment Id",
+      "help": {
+        "totalPrice": "The total price of the booking, computed with the price per night of the HousingCategory and the duration of the booking"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "secretplacespaApp": {
+    "housingClosure": {
+      "home": {
+        "title": "HousingClosures",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Housing Closure",
+        "createOrEditLabel": "Créer ou éditer un Housing Closure",
+        "notFound": "Aucun Housing Closure trouvé"
+      },
+      "created": "Un nouveau Housing Closure a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Housing Closure avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Housing Closure avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Housing Closure {{ id }} ?"
+      },
+      "detail": {
+        "title": "Housing Closure"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "cause": "Cause",
+      "establishmentId": "Establishment Id"
+    }
+  }
+}

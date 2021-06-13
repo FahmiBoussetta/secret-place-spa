@@ -15,7 +15,26 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213847_added_entity_Booking.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213848_added_entity_BookingElement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213849_added_entity_Favorites.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213850_added_entity_Rating.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213851_added_entity_Establishment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213852_added_entity_Manage.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213853_added_entity_EstablishmentClosure.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213854_added_entity_HousingTemplate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213855_added_entity_HousingClosure.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213856_added_entity_Photo.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210613213847_added_entity_constraints_Booking.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213848_added_entity_constraints_BookingElement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213849_added_entity_constraints_Favorites.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213850_added_entity_constraints_Rating.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213852_added_entity_constraints_Manage.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213853_added_entity_constraints_EstablishmentClosure.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213854_added_entity_constraints_HousingTemplate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213855_added_entity_constraints_HousingClosure.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210613213856_added_entity_constraints_Photo.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

@@ -1,0 +1,53 @@
+{
+  "name": "Rating",
+  "fields": [
+    {
+      "fieldName": "rate",
+      "fieldType": "Integer",
+      "javadoc": "The rate gave",
+      "fieldValidateRules": ["required", "min", "max"],
+      "fieldValidateRulesMin": "1",
+      "fieldValidateRulesMax": "5"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String",
+      "javadoc": "comment on the rating",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "250"
+    },
+    {
+      "fieldName": "ratingDate",
+      "fieldType": "Instant",
+      "javadoc": "The date the rating has been done",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "rating",
+      "javadoc": "The user that has got this favorite record",
+      "relationshipName": "userId"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "establishment",
+      "otherEntityRelationshipName": "rating",
+      "javadoc": "The establishment the user put in his favorites",
+      "relationshipName": "establishmentId"
+    }
+  ],
+  "javadoc": "The Rating entity",
+  "entityTableName": "rating",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210613213850"
+}
