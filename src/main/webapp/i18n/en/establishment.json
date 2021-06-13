@@ -1,0 +1,45 @@
+{
+  "secretplacespaApp": {
+    "establishment": {
+      "home": {
+        "title": "Establishments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Establishment",
+        "createOrEditLabel": "Create or edit a Establishment",
+        "notFound": "No Establishments found"
+      },
+      "created": "A new Establishment is created with identifier {{ param }}",
+      "updated": "A Establishment is updated with identifier {{ param }}",
+      "deleted": "A Establishment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Establishment {{ id }}?"
+      },
+      "detail": {
+        "title": "Establishment"
+      },
+      "id": "ID",
+      "name": "Name",
+      "address": "Address",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "globalRate": "Global Rate",
+      "establishmentType": "Establishment Type",
+      "hasParking": "Has Parking",
+      "hasRestaurant": "Has Restaurant",
+      "hasFreeWifi": "Has Free Wifi",
+      "description": "Description",
+      "help": {
+        "name": "name of the establishement",
+        "address": "adress of the establishement",
+        "latitude": "latitude of the establishement, useful to place it on a map",
+        "longitude": "longitude of the establishement, useful to place it on a map",
+        "globalRate": "globalRate of the establishement, computed after each new Rate",
+        "establishmentType": "The type of establishment",
+        "hasParking": "Does the establishment has a private parking ?",
+        "hasRestaurant": "Does the establishment has a restaurant ?",
+        "hasFreeWifi": "Does the establishment has free wifi ?",
+        "description": "Description of the establishment"
+      }
+    }
+  }
+}

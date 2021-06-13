@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity Photo.
+    -->
+    <changeSet id="20210613213856-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="housing_template_id_id"
+                                 baseTableName="photo"
+                                 constraintName="fk_photo__housing_template_id_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="housing_template"/>
+
+        <addForeignKeyConstraint baseColumnNames="establishment_id_id"
+                                 baseTableName="photo"
+                                 constraintName="fk_photo__establishment_id_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="establishment"/>
+    </changeSet>
+</databaseChangeLog>

@@ -7,6 +7,16 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "booking": "Booking",
+        "bookingElement": "Booking Element",
+        "favorites": "Favorites",
+        "rating": "Rating",
+        "establishment": "Establishment",
+        "manage": "Manage",
+        "establishmentClosure": "Establishment Closure",
+        "housingTemplate": "Housing Template",
+        "housingClosure": "Housing Closure",
+        "photo": "Photo",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

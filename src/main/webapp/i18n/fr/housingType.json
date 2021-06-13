@@ -1,0 +1,9 @@
+{
+  "secretplacespaApp": {
+    "HousingType": {
+      "null": "",
+      "SPA_PREMIUM": "SPA_PREMIUM",
+      "SPA": "SPA"
+    }
+  }
+}

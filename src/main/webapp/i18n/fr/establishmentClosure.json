@@ -1,0 +1,27 @@
+{
+  "secretplacespaApp": {
+    "establishmentClosure": {
+      "home": {
+        "title": "EstablishmentClosures",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Establishment Closure",
+        "createOrEditLabel": "Créer ou éditer un Establishment Closure",
+        "notFound": "Aucun Establishment Closure trouvé"
+      },
+      "created": "Un nouveau Establishment Closure a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Establishment Closure avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Establishment Closure avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Establishment Closure {{ id }} ?"
+      },
+      "detail": {
+        "title": "Establishment Closure"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "cause": "Cause",
+      "establishmentId": "Establishment Id"
+    }
+  }
+}

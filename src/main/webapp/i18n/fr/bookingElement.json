@@ -1,0 +1,31 @@
+{
+  "secretplacespaApp": {
+    "bookingElement": {
+      "home": {
+        "title": "BookingElements",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Booking Element",
+        "createOrEditLabel": "Créer ou éditer un Booking Element",
+        "notFound": "Aucun Booking Element trouvé"
+      },
+      "created": "Un nouveau Booking Element a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Booking Element avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Booking Element avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Booking Element {{ id }} ?"
+      },
+      "detail": {
+        "title": "Booking Element"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "elementPrice": "Element Price",
+      "bookingId": "Booking Id",
+      "housingTemplateId": "Housing Template Id",
+      "help": {
+        "elementPrice": "The total price of the booking, computed with the price per night of the HousingCategory and the duration of the booking"
+      }
+    }
+  }
+}

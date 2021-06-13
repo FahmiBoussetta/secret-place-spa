@@ -1,0 +1,34 @@
+{
+  "secretplacespaApp": {
+    "housingTemplate": {
+      "home": {
+        "title": "Housing Templates",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Housing Template",
+        "createOrEditLabel": "Create or edit a Housing Template",
+        "notFound": "No Housing Templates found"
+      },
+      "created": "A new Housing Template is created with identifier {{ param }}",
+      "updated": "A Housing Template is updated with identifier {{ param }}",
+      "deleted": "A Housing Template is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Housing Template {{ id }}?"
+      },
+      "detail": {
+        "title": "Housing Template"
+      },
+      "id": "ID",
+      "housingType": "Housing Type",
+      "nbOfUnit": "Nb Of Unit",
+      "nbMaxOfOccupants": "Nb Max Of Occupants",
+      "price": "Price",
+      "establishmentId": "Establishment Id",
+      "help": {
+        "housingType": "The type of housing",
+        "nbOfUnit": "Number of unit of this kind of housing the establishment has",
+        "nbMaxOfOccupants": "The maximum number of persons that can live in this kind of housing",
+        "price": "Price per night"
+      }
+    }
+  }
+}
