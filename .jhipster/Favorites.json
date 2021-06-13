@@ -1,0 +1,31 @@
+{
+  "name": "Favorites",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "favorites",
+      "javadoc": "The user that has got this favorite record",
+      "relationshipName": "userId"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "establishment",
+      "otherEntityRelationshipName": "favorites",
+      "javadoc": "The establishment the user put in his favorites",
+      "relationshipName": "establishmentId"
+    }
+  ],
+  "javadoc": "The Favorites entity : no attributes beacause it's an association table",
+  "entityTableName": "favorites",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210613213610"
+}

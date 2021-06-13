@@ -1,0 +1,48 @@
+{
+  "name": "BookingElement",
+  "fields": [
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "elementPrice",
+      "fieldType": "Integer",
+      "javadoc": "The total price of the booking, computed with the price per night of the HousingCategory and the duration of the booking",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "booking",
+      "otherEntityRelationshipName": "bookingElement",
+      "javadoc": "The Booking this booking element is a part of",
+      "relationshipName": "bookingId"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "housingTemplate",
+      "otherEntityRelationshipName": "bookingElement",
+      "javadoc": "The housing template this booking element is on",
+      "relationshipName": "housingTemplateId"
+    }
+  ],
+  "javadoc": "The Booking entity",
+  "entityTableName": "booking_element",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210613213609"
+}

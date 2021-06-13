@@ -42,7 +42,20 @@
     "jwtSecretKey": "Y2IxMzFiMmNjYzg4N2Y2ODE4N2U1NDgyZWEzMDkwOGI2NTNmYWE3Njg5MDQ0ZTZhYmU0OWIwOGM3MTA0OTMwMzdkY2IyZjNjNWNmZGFlY2YyYWVmYTExNzM5YWMwMzlhNDVjODYwMTNhNTk0ODI3ZTdlYmMxNGJhMjg5MjA3MmM=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": [
+      "Booking",
+      "BookingElement",
+      "Favorites",
+      "Rating",
+      "Establishment",
+      "Manage",
+      "EstablishmentClosure",
+      "HousingTemplate",
+      "HousingClosure",
+      "Photo"
+    ],
+    "lastLiquibaseTimestamp": 1623620177000
   },
   "git-provider": "GitHub",
   "git-company": "FahmiBoussetta",

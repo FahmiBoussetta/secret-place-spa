@@ -1,0 +1,79 @@
+{
+  "name": "Establishment",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "javadoc": "name of the establishement",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "1",
+      "fieldValidateRulesMaxlength": "150"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String",
+      "javadoc": "adress of the establishement",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "1",
+      "fieldValidateRulesMaxlength": "150"
+    },
+    {
+      "fieldName": "latitude",
+      "fieldType": "Float",
+      "javadoc": "latitude of the establishement, useful to place it on a map"
+    },
+    {
+      "fieldName": "longitude",
+      "fieldType": "Float",
+      "javadoc": "longitude of the establishement, useful to place it on a map"
+    },
+    {
+      "fieldName": "globalRate",
+      "fieldType": "Float",
+      "javadoc": "globalRate of the establishement, computed after each new Rate"
+    },
+    {
+      "fieldName": "establishmentType",
+      "fieldType": "EstablishmentType",
+      "javadoc": "The type of establishment",
+      "fieldValues": "SECRETPLACESPA",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "hasParking",
+      "fieldType": "Boolean",
+      "javadoc": "Does the establishment has a private parking ?",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "hasRestaurant",
+      "fieldType": "Boolean",
+      "javadoc": "Does the establishment has a restaurant ?",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "hasFreeWifi",
+      "fieldType": "Boolean",
+      "javadoc": "Does the establishment has free wifi ?",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "javadoc": "Description of the establishment",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "300"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "establishment",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210613213612"
+}

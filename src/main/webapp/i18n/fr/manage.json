@@ -1,0 +1,25 @@
+{
+  "secretplacespaApp": {
+    "manage": {
+      "home": {
+        "title": "Manages",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Manage",
+        "createOrEditLabel": "Créer ou éditer un Manage",
+        "notFound": "Aucun Manage trouvé"
+      },
+      "created": "Un nouveau Manage a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Manage avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Manage avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Manage {{ id }} ?"
+      },
+      "detail": {
+        "title": "Manage"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "establishmentId": "Establishment Id"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "secretplacespaApp": {
+    "favorites": {
+      "home": {
+        "title": "Favorites",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Favorites",
+        "createOrEditLabel": "Créer ou éditer un Favorites",
+        "notFound": "Aucun Favorites trouvé"
+      },
+      "created": "Un nouveau Favorites a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Favorites avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Favorites avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Favorites {{ id }} ?"
+      },
+      "detail": {
+        "title": "Favorites"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "establishmentId": "Establishment Id"
+    }
+  }
+}

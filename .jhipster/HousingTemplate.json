@@ -1,0 +1,51 @@
+{
+  "name": "HousingTemplate",
+  "fields": [
+    {
+      "fieldName": "housingType",
+      "fieldType": "HousingType",
+      "javadoc": "The type of housing",
+      "fieldValues": "SPA_PREMIUM,SPA",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nbOfUnit",
+      "fieldType": "Integer",
+      "javadoc": "Number of unit of this kind of housing the establishment has",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "1"
+    },
+    {
+      "fieldName": "nbMaxOfOccupants",
+      "fieldType": "Integer",
+      "javadoc": "The maximum number of persons that can live in this kind of housing",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "1"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Float",
+      "javadoc": "Price per night",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "establishment",
+      "otherEntityRelationshipName": "housingTemplate",
+      "javadoc": "The establishment that owns this housing template",
+      "relationshipName": "establishmentId"
+    }
+  ],
+  "entityTableName": "housing_template",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210613213615"
+}

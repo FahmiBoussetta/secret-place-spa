@@ -48,6 +48,16 @@ public class CacheConfiguration {
             createCache(cm, com.yamibo.secretplacespa.domain.User.class.getName());
             createCache(cm, com.yamibo.secretplacespa.domain.Authority.class.getName());
             createCache(cm, com.yamibo.secretplacespa.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.yamibo.secretplacespa.domain.Booking.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.BookingElement.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.Favorites.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.Rating.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.Establishment.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.Manage.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.EstablishmentClosure.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.HousingTemplate.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.HousingClosure.class.getName());
+            createCache(cm, com.yamibo.secretplacespa.domain.Photo.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

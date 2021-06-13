@@ -1,0 +1,30 @@
+{
+  "name": "Manage",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "manage",
+      "javadoc": "The user that manage the establishment",
+      "relationshipName": "userId"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "establishment",
+      "otherEntityRelationshipName": "manage",
+      "javadoc": "The establishment that is managed",
+      "relationshipName": "establishmentId"
+    }
+  ],
+  "entityTableName": "manage",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210613213613"
+}
